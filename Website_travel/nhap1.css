@@ -1,0 +1,96 @@
+header video{
+    width: 100%;
+    object-fit: cover;
+}
+.content video{
+    width: 100%;
+    object-fit: cover;
+}
+header{
+    position: relative;
+}
+/* header {
+    width: 100vh;
+    height: 100vw;
+} */
+header form{
+    width:30%;
+    height: 45%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: rgb(233, 230, 230, 0.2);
+    
+}
+form input{
+    border-radius: 5px;
+    background-color: rgb(232, 229, 229, 0.2);
+    color: white;
+}
+form select{
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(232, 229, 229, 0.2);
+
+}
+.content img{
+    width: 100%;
+}
+.content h3{
+    position: relative;
+}
+.content h3::after{
+    position: absolute;
+    content: '';
+    width: 10%;
+    height: 5px;
+    background-color: blue;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.content h4::after{
+    position: absolute;
+    content: '';
+    width: 92%;
+    height: 5px;
+    background-color: rgb(75, 176, 192);
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.body img{
+    width: 100%;
+}
+/* Độ phân giải màn hình nhỏ hơn 768px điện thoại */
+@media only screen and (max-width:767px) {
+
+    /* header{
+        position: relative;
+    }
+    header h3{
+        font-size: 20px;
+    }
+    header form{
+        max-width: 350px;
+        max-height: 350px;
+        position: absolute;
+        top: 0px;
+        left: 100px;
+        background-color: rgb(233, 230, 230, 0.2);
+        
+    } */
+}
+
+
+ /* Độ phân giải màn hình lớn hơn hơn hoặc bằng 768px và nhỏ hơn 992px tablet */
+@media only screen and (min-width: 768px ) and (max-width: 991px){
+ 
+   
+
+}
+
+/* Độ phân giải màn hình lớn hơn hoặc bằng 992px */
+@media only screen and (min-width: 992px){
+
+}    

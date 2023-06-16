@@ -1,0 +1,21 @@
+ /* Độ phân giải màn hình nhỏ hơn 768px */
+ @media only screen and (max-width:767px){
+    .container-fluid header .container-header .container-video video{
+        display: none;
+        position: relative;
+    }
+    .container-fluid header .container-header .container-video img{
+        display: block;
+        width: 100%;
+        height:auto;
+       
+    }
+    .container-fluid header .container-header .container-form form{
+        position: absolute;
+        width: 80%;
+        justify-content: center;
+        margin-top: -70px;
+        height: 80%;
+    }
+
+ }

@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.carouselId .carousel-inner .carousel-item .carousel-caption h1, h3{
+    color: rgb(1, 177, 247);
+}
+.carouselId .carousel-inner .carousel-item .carousel-caption h1{
+    color: rgb(1, 177, 247);
+}
+header .container-nav{
+    width: 100%;
+    background-color: rgb(16, 170, 231);
+}
+header ul li a{
+    border-right: 1px solid white;
+}
+header nav a{
+    border-right: 1px solid white;
+    padding-right: 10px ;
+
+}
+.body-img h1{
+    position: relative;
+    color:rgb(12, 151, 197);
+}
+.body-img h1::after{
+    position: absolute;
+    content: "";
+    height:2px;
+    width: 80%;
+    left: 50%;
+    top: 120px;
+    background-color:rgb(20, 117, 150);
+    transform: translateX(-50%);
+}
+.body-img h1, h6{
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
+.body-img button{
+    margin-bottom: 20px;
+}
+.col-sm-4 .col-md-4{
+    margin-top:50px;
+}
+.body-img{
+    margin-top: 50px;
+   
+}
+.body-img .container-fluid .row .col-sm-6,.col-md-4 img{
+    transform: scale(0.9);
+    transition: 1s;
+    /* overflow: hidden; */
+}
+.body-img .container-fluid .row .col-sm-6,.col-md-4:hover img{
+    transform: scale(1);
+    transition: 1s;
+    /* overflow: hidden; */
+}
+.body-img .container-fluid .row .col-sm-6,.col-md-4 .text{
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: rgb(236, 231, 231);
+    border: 3px solid rgb(255, 255, 255);
+    padding-bottom: 30px;
+    width: 92%;
+    margin: auto;
+   
+}
+.body-img .container-fluid .row .col-sm-6,.col-md-4{
+    background-color: white;
+}
+.footer-img {
+    margin-bottom:40px;
+}
+.footer-img h1,p{
+    text-align: center;
+}
+.footer-img p{
+    position: relative;
+}
+.footer-img p::before{
+    position: absolute;
+    content: "";
+    height:3px;
+    width: 80%;
+    background-color: lightblue;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 55px;
+
+}
+.footer-img p{
+    margin-bottom:70px;
+}
+.footer-img p::after{
+    position: absolute;
+    content: "\2729 \2729 \2729";
+    color: red;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    top: 40px;
+    width: 100px;
+    height: 50px;
+    background-color:white;
+}
+.footer-img .row .col-md-4 img{
+    width: 100%;
+    height:auto;
+    transform: none;
+    margin-bottom: 10px;
+}
+.footer h5{
+    position: relative;
+    text-align: center;
+    color:rgb(9, 135, 177);
+}
+.footer h5::before{
+    position: absolute;
+    content:'';
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(13, 139, 180);
+    width: 80%;
+    height: 3px;
+   
+}
+.footer h5::after{
+    position: absolute;
+    content: "\22B2 \22C7 \22B3";
+    top: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:white;
+    color:red;
+    font-size:40px;
+}
+.footer .container .row p{
+    margin-top: 50px ;
+    margin-left: 30%;
+    font-size: 50px;
+    color:rgb(1, 177, 247);
+}
+.footer .container .row p i{
+    cursor: pointer;
+    margin-left: 30%;
+}
+.footer .container .row p{
+    display: flex;
+    /* margin: auto; */
+}
+.footer .container .row i{
+    font-size: 50px;
+    margin-top: 40px;
+    color:#14A1F9;
+}
+header nav form{
+    position: relative;
+}
+header nav form i{
+    position: absolute;
+    right: 50px;
+    color:black;
+    z-index: 2;
+}
